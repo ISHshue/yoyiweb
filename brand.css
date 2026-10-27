@@ -1,0 +1,30 @@
+/* Typography and identity update: 2026-10-27. */
+:root {
+  --font: "Yo Yi Sans Web", "Taipei Sans TC", "Taipei Sans TC Beta", "Microsoft JhengHei", sans-serif;
+  --font-heading: "Yo Yi Serif Web", "Source Han Serif TW", "Source Han Serif TC", "Noto Serif TC", "PMingLiU", serif;
+}
+body { font-family: var(--font); }
+h1, h2, h3, .footer-display, .wordmark {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-synthesis: none;
+}
+.hero h1 { font-weight: 600; letter-spacing: -.025em; }
+h2, h3 { letter-spacing: -.015em; }
+.wordmark { gap: 12px; letter-spacing: .06em; }
+.brand-icon {
+  display: block;
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  object-fit: contain;
+}
+.footer-display { font-weight: 500; }
+.button { font-weight: 700; }
+.contact-prep li span:first-child { font-weight: 700; }
+@media (max-width: 600px) {
+  .wordmark { gap: 8px; font-size: 18px; }
+  .brand-icon { width: 34px; height: 34px; }
+  .hero h1 { letter-spacing: -.025em; }
+}

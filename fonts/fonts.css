@@ -1,0 +1,450 @@
+/* Source Han Serif TW: Adobe. Taipei Sans TC: JT Foundry. Licenses alongside these files. */
+@font-face{font-family:"Yo Yi Serif Web";src:url("./source-han-serif-tw.woff2") format("woff2");font-weight:200 900;font-style:normal;font-display:swap}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.Basic-Latin.woff2") format("woff2");
+  unicode-range: U+20-7E;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.Latin-1-Supplement.woff2") format("woff2");
+  unicode-range: U+A0-FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.Arrows.woff2") format("woff2");
+  unicode-range: U+2190-2199, U+21B8-21B9, U+21C4-21C6, U+21CB-21CC, U+21D0, U+21D2, U+21D4, U+21E6-21E9, U+21F5;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.Geometric-Shapes.woff2") format("woff2");
+  unicode-range: U+25A0-25AB, U+25B1-25B3, U+25B6-25B7, U+25BC-25BD, U+25C0-25C1, U+25C6-25CC, U+25CE-25D3, U+25E2-25E6, U+25EF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Symbols-and-Punctuation.woff2") format("woff2");
+  unicode-range: U+3000-303F;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.Katakana.woff2") format("woff2");
+  unicode-range: U+30A0-30FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-001.woff2") format("woff2");
+  unicode-range: U+4E00-51FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-002.woff2") format("woff2");
+  unicode-range: U+5200-55FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-003.woff2") format("woff2");
+  unicode-range: U+5600-59FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-004.woff2") format("woff2");
+  unicode-range: U+5A00-5DFF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-005.woff2") format("woff2");
+  unicode-range: U+5E00-61FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-006.woff2") format("woff2");
+  unicode-range: U+6200-65FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-007.woff2") format("woff2");
+  unicode-range: U+6600-69FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-008.woff2") format("woff2");
+  unicode-range: U+6A00-6DFF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-009.woff2") format("woff2");
+  unicode-range: U+6E00-71FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-010.woff2") format("woff2");
+  unicode-range: U+7200-75FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-011.woff2") format("woff2");
+  unicode-range: U+7600-79FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-012.woff2") format("woff2");
+  unicode-range: U+7A00-7DFF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-013.woff2") format("woff2");
+  unicode-range: U+7E00-81FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-014.woff2") format("woff2");
+  unicode-range: U+8200-85FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-015.woff2") format("woff2");
+  unicode-range: U+8600-89FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-016.woff2") format("woff2");
+  unicode-range: U+8A00-8DFF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-017.woff2") format("woff2");
+  unicode-range: U+8E00-91FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-018.woff2") format("woff2");
+  unicode-range: U+9200-95FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-019.woff2") format("woff2");
+  unicode-range: U+9600-99FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-020.woff2") format("woff2");
+  unicode-range: U+9A00-9DFF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-021.woff2") format("woff2");
+  unicode-range: U+9E00-9FD0;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.Halfwidth-and-Fullwidth-Forms.woff2") format("woff2");
+  unicode-range: U+FF01-FFA0, U+FFE0-FFE6, U+FFE8-FFEE;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.Basic-Latin.woff2") format("woff2");
+  unicode-range: U+20-7E;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.Latin-1-Supplement.woff2") format("woff2");
+  unicode-range: U+A0-FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.Arrows.woff2") format("woff2");
+  unicode-range: U+2190-2199, U+21B8-21B9, U+21C4-21C6, U+21CB-21CC, U+21D0, U+21D2, U+21D4, U+21E6-21E9, U+21F5;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.Geometric-Shapes.woff2") format("woff2");
+  unicode-range: U+25A0-25AB, U+25B1-25B3, U+25B6-25B7, U+25BC-25BD, U+25C0-25C1, U+25C6-25CC, U+25CE-25D3, U+25E2-25E6, U+25EF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Symbols-and-Punctuation.woff2") format("woff2");
+  unicode-range: U+3000-303F;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.Katakana.woff2") format("woff2");
+  unicode-range: U+30A0-30FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-001.woff2") format("woff2");
+  unicode-range: U+4E00-51FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-002.woff2") format("woff2");
+  unicode-range: U+5200-55FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-003.woff2") format("woff2");
+  unicode-range: U+5600-59FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-004.woff2") format("woff2");
+  unicode-range: U+5A00-5DFF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-005.woff2") format("woff2");
+  unicode-range: U+5E00-61FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-006.woff2") format("woff2");
+  unicode-range: U+6200-65FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-007.woff2") format("woff2");
+  unicode-range: U+6600-69FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-008.woff2") format("woff2");
+  unicode-range: U+6A00-6DFF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-009.woff2") format("woff2");
+  unicode-range: U+6E00-71FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-010.woff2") format("woff2");
+  unicode-range: U+7200-75FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-011.woff2") format("woff2");
+  unicode-range: U+7600-79FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-012.woff2") format("woff2");
+  unicode-range: U+7A00-7DFF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-013.woff2") format("woff2");
+  unicode-range: U+7E00-81FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-014.woff2") format("woff2");
+  unicode-range: U+8200-85FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-015.woff2") format("woff2");
+  unicode-range: U+8600-89FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-016.woff2") format("woff2");
+  unicode-range: U+8A00-8DFF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-017.woff2") format("woff2");
+  unicode-range: U+8E00-91FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-018.woff2") format("woff2");
+  unicode-range: U+9200-95FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-019.woff2") format("woff2");
+  unicode-range: U+9600-99FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-020.woff2") format("woff2");
+  unicode-range: U+9A00-9DFF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-021.woff2") format("woff2");
+  unicode-range: U+9E00-9FD0;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.Halfwidth-and-Fullwidth-Forms.woff2") format("woff2");
+  unicode-range: U+FF01-FFA0, U+FFE0-FFE6, U+FFE8-FFEE;
+}

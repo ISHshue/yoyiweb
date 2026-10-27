@@ -1,0 +1,252 @@
+{
+  "sourceHanSerif": {
+    "creator": "Adobe",
+    "source": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/Variable/WOFF2/OTF/Subset/SourceHanSerifTW-VF.otf.woff2",
+    "license": "OFL-1.1",
+    "format": "Unmodified official Taiwan-region variable WOFF2"
+  },
+  "taipeiSans": {
+    "creator": "JT Foundry",
+    "source": "https://sites.google.com/view/jtfoundry/zh-tw/downloads",
+    "packaging": "https://github.com/vp-tw/cjk-web-fonts/tree/main/packages/taipei-sans-tc",
+    "version": "1.000",
+    "license": "OFL-1.1",
+    "subsets": [
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.Basic-Latin.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.Basic-Latin.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.Latin-1-Supplement.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.Latin-1-Supplement.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.Arrows.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.Arrows.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.Geometric-Shapes.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.Geometric-Shapes.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Symbols-and-Punctuation.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Symbols-and-Punctuation.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.Katakana.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.Katakana.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-001.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-001.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-002.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-002.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-003.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-003.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-004.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-004.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-005.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-005.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-006.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-006.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-007.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-007.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-008.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-008.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-009.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-009.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-010.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-010.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-011.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-011.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-012.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-012.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-013.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-013.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-014.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-014.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-015.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-015.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-016.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-016.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-017.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-017.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-018.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-018.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-019.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-019.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-020.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-020.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-021.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.CJK-Unified-Ideographs-021.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.Halfwidth-and-Fullwidth-Forms.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.Halfwidth-and-Fullwidth-Forms.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.Basic-Latin.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.Basic-Latin.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.Latin-1-Supplement.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.Latin-1-Supplement.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.Arrows.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.Arrows.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.Geometric-Shapes.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.Geometric-Shapes.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Symbols-and-Punctuation.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Symbols-and-Punctuation.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.Katakana.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.Katakana.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-001.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-001.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-002.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-002.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-003.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-003.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-004.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-004.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-005.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-005.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-006.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-006.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-007.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-007.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-008.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-008.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-009.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-009.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-010.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-010.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-011.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-011.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-012.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-012.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-013.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-013.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-014.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-014.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-015.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-015.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-016.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-016.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-017.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-017.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-018.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-018.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-019.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-019.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-020.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-020.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-021.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.CJK-Unified-Ideographs-021.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.Halfwidth-and-Fullwidth-Forms.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.Halfwidth-and-Fullwidth-Forms.woff2"
+      }
+    ]
+  },
+  "siteSubsets": {
+    "families": [
+      "Yo Yi Serif Web",
+      "Yo Yi Sans Web"
+    ],
+    "reason": "Internal names changed for OFL reserved-name compliance; original glyph designs unchanged.",
+    "unicodeCount": 340,
+    "sourceBytes": 18316256,
+    "deployedBytes": 410000,
+    "regenerate": "node scripts/prepare-fonts.mjs && python scripts/subset-fonts.py"
+  }
+}

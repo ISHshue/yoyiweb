@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">佑鎰・切削印記</title>
+  <desc id="desc">圓形金屬工件的輪廓，鏤空佑字筆畫與右上方切削缺口。</desc>
+  <defs>
+    <mask id="cut">
+      <circle cx="32" cy="32" r="29" fill="white"/>
+      <path d="M45 0H64V19Z" fill="black"/>
+      <g fill="none" stroke="black" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter">
+        <path d="M25 16 14 30M20 25v23M29 24h21M39 16 29 34"/>
+        <path d="M32 35h16v13H32Z"/>
+      </g>
+    </mask>
+  </defs>
+  <path fill="#ff4d00" mask="url(#cut)" d="M0 0h64v64H0z"/>
+</svg>
