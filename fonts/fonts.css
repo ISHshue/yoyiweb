@@ -21,6 +21,14 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
+  src: url("./taipei/Regular/Taipei-Sans-TC.General-Punctuation.woff2") format("woff2");
+  unicode-range: U+2002-2003, U+2010-2016, U+2018-201A, U+201C-201E, U+2020-2022, U+2025-2027, U+2030, U+2032-2033, U+2035, U+2039-203C, U+2042, U+2047-2049, U+2051;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
   src: url("./taipei/Regular/Taipei-Sans-TC.Arrows.woff2") format("woff2");
   unicode-range: U+2190-2199, U+21B8-21B9, U+21C4-21C6, U+21CB-21CC, U+21D0, U+21D2, U+21D4, U+21E6-21E9, U+21F5;
 }
@@ -239,6 +247,14 @@
   font-display: swap;
   src: url("./taipei/Bold/Taipei-Sans-TC.Latin-1-Supplement.woff2") format("woff2");
   unicode-range: U+A0-FF;
+}
+@font-face {
+  font-family: "Yo Yi Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./taipei/Bold/Taipei-Sans-TC.General-Punctuation.woff2") format("woff2");
+  unicode-range: U+2002-2003, U+2010-2016, U+2018-201A, U+201C-201E, U+2020-2022, U+2025-2027, U+2030, U+2032-2033, U+2035, U+2039-203C, U+2042, U+2047-2049, U+2051;
 }
 @font-face {
   font-family: "Yo Yi Sans Web";

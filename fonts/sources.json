@@ -21,6 +21,10 @@
         "relative": "taipei/Regular/Taipei-Sans-TC.Latin-1-Supplement.woff2"
       },
       {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.General-Punctuation.woff2",
+        "relative": "taipei/Regular/Taipei-Sans-TC.General-Punctuation.woff2"
+      },
+      {
         "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Regular/Taipei-Sans-TC.Arrows.woff2",
         "relative": "taipei/Regular/Taipei-Sans-TC.Arrows.woff2"
       },
@@ -131,6 +135,10 @@
       {
         "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.Latin-1-Supplement.woff2",
         "relative": "taipei/Bold/Taipei-Sans-TC.Latin-1-Supplement.woff2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.General-Punctuation.woff2",
+        "relative": "taipei/Bold/Taipei-Sans-TC.General-Punctuation.woff2"
       },
       {
         "url": "https://raw.githubusercontent.com/vp-tw/cjk-web-fonts/main/packages/taipei-sans-tc/dist/Bold/Taipei-Sans-TC.Arrows.woff2",
@@ -244,9 +252,9 @@
       "Yo Yi Sans Web"
     ],
     "reason": "Internal names changed for OFL reserved-name compliance; original glyph designs unchanged.",
-    "unicodeCount": 340,
-    "sourceBytes": 18316256,
-    "deployedBytes": 410000,
+    "unicodeCount": 390,
+    "sourceBytes": 18326364,
+    "deployedBytes": 456468,
     "regenerate": "node scripts/prepare-fonts.mjs && python scripts/subset-fonts.py"
   }
 }
