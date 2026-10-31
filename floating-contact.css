@@ -1,0 +1,141 @@
+.floating-contact {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .7rem;
+  font-family: "Yo Yi Sans Web", sans-serif;
+}
+
+.floating-contact__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .55rem;
+}
+
+.floating-contact__links[hidden] { display: none; }
+
+/* Leave the footer's last line clear of the fixed contact control. */
+.site-footer .footer-bottom { padding-inline-end: max(5rem, calc(4.5rem + env(safe-area-inset-right))); }
+
+.floating-contact__item {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  color: #f9f5ee;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.floating-contact__label {
+  padding: .4rem .65rem;
+  background: #20201e;
+  color: #f9f5ee;
+  font-size: .8125rem;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.floating-contact__round {
+  position: relative;
+  display: grid;
+  flex: none;
+  width: 3.25rem;
+  height: 3.25rem;
+  place-items: center;
+  overflow: hidden;
+  border: 2px solid #f59132;
+  border-radius: 50%;
+  background: #171715;
+  color: #171715;
+  cursor: pointer;
+}
+
+.floating-contact__round::before {
+  position: absolute;
+  inset: 2px;
+  border-radius: 50%;
+  background: #f59132;
+  content: "";
+}
+
+.floating-contact__round svg {
+  position: relative;
+  z-index: 1;
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.floating-contact__trigger {
+  width: 3.75rem;
+  height: 3.75rem;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.floating-contact__trigger svg { width: 1.6rem; height: 1.6rem; }
+.floating-contact__trigger .floating-contact__close { display: none; }
+.floating-contact__trigger[aria-expanded="true"] .floating-contact__chat { display: none; }
+.floating-contact__trigger[aria-expanded="true"] .floating-contact__close { display: block; }
+
+.floating-contact__trigger:focus-visible,
+.floating-contact__item:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 4px;
+}
+
+.floating-contact__item:focus-visible { outline: none; }
+.floating-contact__item:focus-visible .floating-contact__round { outline: 3px solid #fff; outline-offset: 4px; }
+
+@media (hover: hover) {
+  .floating-contact__trigger:hover,
+  .floating-contact__item:hover .floating-contact__round { animation: floating-contact-pulse .6s; }
+  .floating-contact__trigger:hover::before,
+  .floating-contact__trigger:hover svg,
+  .floating-contact__item:hover .floating-contact__round::before,
+  .floating-contact__item:hover svg { animation: floating-contact-move .5s; }
+}
+
+.floating-contact__trigger:focus-visible,
+.floating-contact__trigger:active,
+.floating-contact__item:focus-visible .floating-contact__round,
+.floating-contact__item:active .floating-contact__round { animation: floating-contact-pulse .6s; }
+.floating-contact__trigger:focus-visible::before,
+.floating-contact__trigger:focus-visible svg,
+.floating-contact__trigger:active::before,
+.floating-contact__trigger:active svg,
+.floating-contact__item:focus-visible .floating-contact__round::before,
+.floating-contact__item:focus-visible svg,
+.floating-contact__item:active .floating-contact__round::before,
+.floating-contact__item:active svg { animation: floating-contact-move .5s; }
+
+@keyframes floating-contact-pulse {
+  0% { box-shadow: 0 0 0 0 #f59132; }
+  100% { box-shadow: 0 0 0 1.2rem transparent; }
+}
+
+@keyframes floating-contact-move {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(115%); }
+  51% { transform: translateY(-115%); }
+}
+
+@media (max-height: 420px) {
+  .floating-contact { bottom: .5rem; gap: .35rem; }
+  .floating-contact__links { gap: .25rem; }
+  .floating-contact__round { width: 2.75rem; height: 2.75rem; }
+  .floating-contact__trigger { width: 3rem; height: 3rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .floating-contact *, .floating-contact *::before { animation: none !important; transition: none !important; }
+}

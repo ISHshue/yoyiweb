@@ -36,6 +36,14 @@
 .company-info a:hover { color: var(--accent-hover); text-decoration-color: currentColor; }
 .company-info a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
 
+.footer-display {
+  font-size: clamp(36px, 6.4vw, 96px);
+  line-height: 1.45;
+  letter-spacing: -.035em;
+  white-space: normal;
+}
+.footer-display span { display: block; }
+
 @media (max-width: 900px) {
   .company-details { grid-template-columns: 1fr; gap: 36px; }
 }
@@ -44,6 +52,7 @@
   .company-details { gap: 28px; }
   .company-details-intro p { margin-top: 18px; font-size: 16px; }
   .company-info > div { grid-template-columns: minmax(76px, 0.32fr) minmax(0, 1fr); gap: 12px; padding: 17px 0; }
+  .footer-display { font-size: clamp(30px, 7.6vw, 45px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
