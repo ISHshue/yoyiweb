@@ -252,9 +252,9 @@
       "Yo Yi Sans Web"
     ],
     "reason": "Internal names changed for OFL reserved-name compliance; original glyph designs unchanged.",
-    "unicodeCount": 466,
+    "unicodeCount": 491,
     "sourceBytes": 18326364,
-    "deployedBytes": 514860,
+    "deployedBytes": 538208,
     "regenerate": "node scripts/prepare-fonts.mjs && python scripts/subset-fonts.py"
   }
 }
