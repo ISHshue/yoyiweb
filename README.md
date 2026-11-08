@@ -6,12 +6,13 @@
 
 ## 網站內容
 
-- 佑鎰介紹、CNC 加工服務、真實加工影片、工件展示與 Instagram 聯絡。
+- 首頁、服務、作品、加工過程與聯絡資訊以階層式頁面呈現；桌面側欄與手機選單可切換。
 - 標題為思源宋體字形，內文為台北黑體字形；字型由本站提供。
 - 原創佑鎰 SVG 圖標、頁面與影片載入動畫、手機導覽與減少動態效果支援。
 
 ## 素材與授權
 
+- 商家提供的工件照片與加工影片保存在 assets/portfolio 和 assets/process；上線前確認素材公開範圍。
 - 加工內容與遠端 YouTube 縮圖：[CNC 阿寬／佑鎰](https://www.youtube.com/@yo-yi)。影片以 YouTube 官方隱私加強播放器嵌入，未重新託管影片。
 - Instagram：[trontalshue](https://www.instagram.com/trontalshue/)。
 - 思源宋體：[Adobe Source Han Serif](https://github.com/adobe-fonts/source-han-serif)，授權見 fonts/SourceHanSerif-OFL.txt。

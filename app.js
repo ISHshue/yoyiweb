@@ -1,10 +1,17 @@
+// Keep links to sections of the former single-page site useful after the split.
+if (/(?:\/|\/index\.html)$/.test(location.pathname)) {
+  const oldDestinations = { '#services': './services.html', '#work': './work.html', '#process': './process.html', '#contact': './contact.html', '#about': './index.html' };
+  if (oldDestinations[location.hash]) location.replace(oldDestinations[location.hash]);
+}
 const processVideos = {
   turning: { id: 'tw3LlQn-qcg', title: '鋼索捲筒\n溝槽加工', description: '刀具沿著捲筒表面作業，近距離觀察鋼索溝槽的車削過程。', note: '這段影片展示捲筒的單一加工工序。' },
   boring: { id: 'yM4yK9tTLEQ', title: '捲筒端面\n孔位加工', description: '從工件端面切入，觀看捲筒孔位加工時的機台與刀具作業。', note: '本段為 PCD1200 捲筒端面孔加工紀錄。' },
   wire: { id: '7T9lDOiw2Vo', title: '線切割\n超長鍵槽', description: '走近線切割現場，觀看超長鍵槽加工中的工件與設備。', note: '本段為獨立的鍵槽加工紀錄。' },
   shaft: { id: 'P_eZln2GrxA', title: 'CNC 車床\n軸心加工', description: '觀看軸心在車床上的加工，從裝夾位置到刀具接觸工件的細節。', note: '本段為軸心加工現場紀錄。' }
 };
+if (document.getElementById('process-panel')) {
 let activeProcess = 'turning';
+const canEmbedVideo = location.protocol === 'http:' || location.protocol === 'https:';
 const tabs = [...document.querySelectorAll('[data-process]')];
 const panel = document.getElementById('process-panel');
 const stage = document.getElementById('video-stage');
@@ -14,6 +21,12 @@ const processTitle = document.getElementById('process-title');
 const sourceLink = document.getElementById('process-source');
 const videoLoader = document.getElementById('video-loader');
 let videoLoadingTimer;
+
+function updatePosterLabel(title) {
+  poster.setAttribute('aria-label', `${canEmbedVideo ? '播放' : '在 YouTube 觀看'}${title.replace('\n', '')}影片`);
+  poster.querySelector('.video-play span:last-child').textContent = canEmbedVideo ? '播放加工實錄' : '在 YouTube 觀看';
+}
+updatePosterLabel(processVideos[activeProcess].title);
 
 function clearVideoLoading() {
   clearTimeout(videoLoadingTimer);
@@ -34,7 +47,7 @@ function bindThumbnail(image) {
 document.querySelectorAll('.video-thumb').forEach(bindThumbnail);
 
 function selectProcess(key, focusTab = false) {
-  if (!processVideos[key]) return;
+  if (!Object.prototype.hasOwnProperty.call(processVideos, key)) return;
   activeProcess = key;
   const video = processVideos[key];
   stage.querySelector('iframe')?.remove();
@@ -60,7 +73,7 @@ function selectProcess(key, focusTab = false) {
   document.getElementById('process-note').textContent = video.note;
   const url = `https://www.youtube.com/watch?v=${video.id}`;
   poster.href = url;
-  poster.setAttribute('aria-label', `播放${video.title.replace('\n', '')}影片`);
+  updatePosterLabel(video.title);
   sourceLink.href = url;
 }
 
@@ -80,6 +93,8 @@ tabs.forEach((tab, index) => {
 });
 poster.addEventListener('click', event => {
   if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  // Local files do not provide the HTTP origin YouTube requires for embeds.
+  if (!canEmbedVideo) return;
   event.preventDefault();
   const video = processVideos[activeProcess];
   const iframe = document.createElement('iframe');
@@ -105,9 +120,14 @@ poster.addEventListener('click', event => {
   stage.append(iframe);
   iframe.focus();
 });
+const requestedProcess = new URLSearchParams(location.search).get('video');
+if (requestedProcess) selectProcess(requestedProcess);
+
 document.querySelectorAll('[data-process-link]').forEach(link => {
   link.addEventListener('click', () => selectProcess(link.dataset.processLink));
 });
+
+}
 
 const menuToggle = document.querySelector('.menu-toggle');
 const mobileNav = document.getElementById('mobile-nav');
@@ -124,7 +144,20 @@ document.addEventListener('keydown', event => {
     menuToggle.focus();
   }
 });
-window.matchMedia('(min-width: 851px)').addEventListener('change', event => { if (event.matches) setMenu(false); });
+document.addEventListener('click', event => {
+  if (!mobileNav.hidden && !mobileNav.contains(event.target) && !menuToggle.contains(event.target)) {
+    const focusWasInMenu = mobileNav.contains(document.activeElement);
+    setMenu(false);
+    if (focusWasInMenu) menuToggle.focus();
+  }
+});
+window.matchMedia('(min-width: 1001px)').addEventListener('change', event => {
+  if (event.matches) {
+    const focusWasInMenu = mobileNav.contains(document.activeElement) || document.activeElement === menuToggle;
+    setMenu(false);
+    if (focusWasInMenu) document.querySelector('.desktop-nav [aria-current="page"]')?.focus();
+  }
+});
 
 if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const observer = new IntersectionObserver(entries => {
